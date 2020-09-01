@@ -5,7 +5,12 @@ const router = express.Router();
 
 router.get("/all", (req , res, next) => {
     res.status(201).json({
-        message: [{'name': "First activity"},{'name': "Second activity"}]
+        data: [
+            {'icon': 'home', 'title': 'First activity','title1': 'Nadeera'},
+            {'icon': 'trash', 'title': 'Second activity','title1': 'Sam'},
+            {'icon': 'tree', 'title': 'Third activity','title1': 'Kalahe'},
+            {'icon': 'user', 'title': 'Fourth activity','title1': 'Subhis'},
+        ]
     })
 })
 
