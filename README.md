@@ -2,7 +2,7 @@
 This API is using Node.js API
 
 ## Prerequests
-You shold have install Node package in your computer of server
+You shold have installed Node package in your computer of server.
 
 ## Installation
 Checkout the code
@@ -17,5 +17,5 @@ port = 12345;
 ```bash
 > node app.js
 ```
-Open your browser and the API will be running on the following URL
+Open your browser and the API will be running on the following URL.
 http://localhost:12345/
